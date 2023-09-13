@@ -3,7 +3,7 @@
 /**
  * times_table - prints the 9 times table, starting with 0
  */
-void times_table(void)
+int times_table(void)
 {
 	int i, j, k;
 
@@ -33,5 +33,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-}
 
